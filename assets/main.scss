@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+  }
+  
+  // Color Variables 
+  $primary-color: #333;
+  $secondary-color: #ebebeb;
+  
+  html {
+    box-sizing: border-box;
+    font-size: 15px;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    transition: background-color 0.5s ease;
+    background-color: $primary-color;
+    color: $primary-color;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // height: 100vh;
+  }
+  
+  h1 {
+    font-family: "Galada", cursive;
+    color: $secondary-color;
+    text-align: center;
+    font-size: 4rem;
+    padding: 1em;
+   }
+  
+  .container {
+    background-color: $secondary-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 3em;
+    border-radius: 5px;
+    width: 50%;
+    margin: 0 auto;
+   }
+  
+  .quote-text {
+    i{
+      font-size: 1.7rem;
+    }
+    height: auto;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  
+  .quote-author {
+    text-align: right;
+    padding: 2em 0;
+    font-size: 1.1rem;
+  }
+  
+  .buttons {
+    i{
+      font-size: 1.2rem;
+    }
+    display: flex;
+    justify-content: space-between;  
+  }
+  
+  .button {
+      color: $secondary-color;
+      transition: background-color 0.5s ease;
+      background-color: $primary-color;
+      padding: 0.6em 0.8em;
+      border-radius: 3px;
+      border: none;
+      outline: none;
+      opacity: 1;
+      cursor: pointer;
+      &:hover {
+      opacity: 0.9;
+    }
+  }
+  
+  footer {
+    text-align: center;
+    color: $secondary-color;
+    margin-top: 2em;
+    font-size: 0.9rem;
+    a{
+      text-decoration: none;
+      color: $secondary-color;
+      font-weight: 500;
+    }
+  }

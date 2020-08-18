@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+  background-color: #333;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1 {
+  font-family: "Galada", cursive;
+  color: #ebebeb;
+  text-align: center;
+  font-size: 4rem;
+  padding: 1em;
+}
+
+.container {
+  background-color: #ebebeb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 3em;
+  border-radius: 5px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.quote-text {
+  height: auto;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.quote-text i {
+  font-size: 1.7rem;
+}
+
+.quote-author {
+  text-align: right;
+  padding: 2em 0;
+  font-size: 1.1rem;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.buttons i {
+  font-size: 1.2rem;
+}
+
+.button {
+  color: #ebebeb;
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+  background-color: #333;
+  padding: 0.6em 0.8em;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+footer {
+  text-align: center;
+  color: #ebebeb;
+  margin-top: 2em;
+  font-size: 0.9rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ebebeb;
+  font-weight: 500;
+}
+/*# sourceMappingURL=main.css.map */
